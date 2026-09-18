@@ -1,0 +1,10 @@
+01-hello-world/main.go
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("Hello, World!")
+	fmt.Println("Я изучаю Go!")
+}
+go run main.go

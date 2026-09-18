@@ -1,0 +1,16 @@
+02-arguments/main.go
+package main
+
+import (
+	"fmt"
+	"os"
+)
+
+func main() {
+	fmt.Println("Количество аргументов:", len(os.Args)-1)
+
+	for i, arg := range os.Args[1:] {
+		fmt.Printf("%d: %s\n", i+1, arg)
+	}
+}
+go run main.go GoLand GitHub Go
